@@ -1,0 +1,105 @@
+Body {
+    font-size: 20px;
+    background: linear-gradient(109.6deg,
+            rgba(119, 44, 232, 0.68) 11.5%,
+            rgb(119, 44, 232) 91.2%);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 800%;
+}
+
+h2 {
+    text-align: center;
+    border: 1px solid white;
+    padding: 15x;
+    font-size: 18px;
+    border-radius: 4px;
+    color: white;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+
+    border-radius: 10%;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 15px;
+    margin: 20px 0 10px;
+    color: white;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background: #7d51e8;
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgb(224, 44, 231);
+    transition: all 200ms ease-in-out;
+}
+
+button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    color: #7d51e8;
+    background-color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 60px;
+}
+
+.learn-more {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+}
+
+ul {
+    display: block;
+    margin: 15px;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+    line-height: 1.5;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 auto;
+    transition: all 200ms ease-in-out;
+    color: white;
+}
+
+li:hover {
+    border-radius: 14px;
+    border-width: 1%;
+    cursor: pointer;
+    color: #7d51e8;
+    background-color: beige;
+}
+
+span.milestone {
+    color: black;
+}
