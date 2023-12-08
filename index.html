@@ -1,14 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BTS Hangman Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <head>
+
+    <body onload="createBalloons()">
+
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1>BTS Hangman Game</h1>
+                    <img src="https://phinf.wevpstatic.net/MjAyMjA2MTdfMTcw/MDAxNjU1NDQzNTcyNzIx.Xp8he2Thp1-AVWi-mKKWnRn6DWrpr893-WhuAXi4608g.KUrWMkevcblhEcqyjnTDiDQKLpn5Do9CJXvi-pWZ1IEg.JPEG/4c5e0ded5b7e46529150941a9407bafb409.jpg?type=w1414"
+                        alt="BTS">
+
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-6">
+                    <div id="word"></div>
+                    <div id="guesses"></div>
+
+                    <div id="buttons"></div>
+
+                    <button id="hint-btn">Get Hint!</button>
+
+                </div>
+
+            </div>
+        </div>
+
+
 </head>
 
-<body>
-    hello
+
+<div id="balloon-container"></div>
+<script src="script.js"> </script>
+
 </body>
 
 </html>
