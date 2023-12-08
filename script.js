@@ -4,11 +4,11 @@ function enterMagicShop() {
   enter = enter.toLowerCase();
   enter = enter.trim();
 
-  let h1 = document.querySelector("h1");
+  let h2 = document.querySelector("h2");
   if (enter === "yes") {
-    h1.innerHTML = `Welcome to the Magic Shop ${firstname}! 💜 <br/> Borahae 🫰`;
+    h2.innerHTML = `Welcome to the Magic Shop ${firstname}! 💜 <br/> Borahae 🫰`;
   } else {
-    h1.innerHTML = `🛑 DO NOT ENTER 🛑 <br/> Important ARMY business, ${firstname}! 🛑`;
+    h2.innerHTML = `🛑 DO NOT ENTER 🛑 <br/> Important ARMY business, ${firstname}! 🛑`;
   }
 }
 let magicShopButton = document.querySelector("button");
